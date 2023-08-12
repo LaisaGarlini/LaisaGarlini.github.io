@@ -19,14 +19,28 @@ table {
     width: 50%;
     justify-content: left;
     text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px 5px; 
 }
 
 th {
     background-color: rgb(133, 132, 132);
     color: white;
+    padding: 5px;
 }
 
 td {
     background-color: #dedddd;
     color: rgb(133, 132, 132);
+    padding: 5px;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0; 
 }
