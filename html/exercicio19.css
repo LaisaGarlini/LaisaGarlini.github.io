@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.logo-img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    padding: 0px 40px 0px 40px;
+}
+
+.publicidade {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.publicidade-img {
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.colunas {
+    width: 100%;
+    display: flex;
+}
+
+.coluna {
+    width: 50%;
+    display: flex;
+}
+
+.imagens {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem {
+    width: 15%;
+}
+
+.titulo-imagem {
+    width: 100%;
+    text-align: center;
+}
+
+.contato {
+    text-align: center;
+}

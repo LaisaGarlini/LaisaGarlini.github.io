@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    background-color: red;
+    border: 3px solid blue;
+}
+.A1 {
+    width: 10%;
+    align-content: start;
+    background-color: yellow;
+}
+
+.A2 {
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    vertical-align: bottom;
+}
+
+.A3 {
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+    background-color: orange;
+}
+
+.B2 {
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    background-color: orange;    
+}
+
+.B4 {
+    width: 30%;
+    text-align: center;
+    background-color: yellow;
+}
+
+.C1 {
+    width: 10%;
+    text-align: end;
+    background-color: orange;
+}

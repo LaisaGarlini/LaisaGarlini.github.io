@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.para-centralizar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+.centralizado {
+    width: 500px;
+    height: 500px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+.centralizado > p {
+    text-align: center;
+    font-size: 18px;
+}

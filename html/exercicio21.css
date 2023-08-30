@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    padding: 0px 40px 0px 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagens {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 5px;
+}
+
+.titulo-imagem {
+    text-align: center;
+}

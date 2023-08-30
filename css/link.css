@@ -1,0 +1,11 @@
+.nao-visitado:link {
+    color: red;
+}
+
+.visitado:visited {
+    color: green;
+}
+
+.passar-mouse:hover {
+    color: rgb(219, 25, 193);
+}
