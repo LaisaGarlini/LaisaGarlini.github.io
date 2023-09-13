@@ -1,4 +1,16 @@
 * {
   font-family: 'Fira Sans', sans-serif;
   list-style-image: url('img/right_arrow_16.png');
+  background-color: #585c5c;
+  color: #e5e6e6;
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+li {
+  font-size: 18px;
 }

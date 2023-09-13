@@ -1,0 +1,202 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+  
+body {
+    width: 98%;
+    margin: 0 auto;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+}
+  
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.logo a {
+    padding-right: 25px;
+}
+
+.menu-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ededed;
+    width: 100%;
+    height: 23px;
+}
+
+.menu-horizontal ul {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+}
+
+.menu-horizontal ul li {
+    border: 1px solid black;
+    text-align: center;
+    display: inline;
+    width: 20%;
+}
+
+.menu-horizontal li a {
+    text-decoration: none;
+    color: #000;
+  }
+
+.main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: calc(20% - 20px) calc(80% - 20px);
+    gap: 40px;
+    padding: 20px 0px;
+}
+
+.acesso {
+    height: 250px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.acesso-p, .tipos-bolo-p, .video-p {
+    height: 35px;
+    background-color: #5c5c5c;
+    color: #FFF;
+    padding: 1px 0px 0px 5px;
+
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border-spacing: 15px;
+}
+
+table td {
+    text-align: center; 
+}
+
+table input {
+    width: 80px;
+}
+
+.imagens {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagens img {
+    width: 581px;
+    height: 250px;
+}
+
+.tipos-bolo {
+    height: 250px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.tipos-bolo li {
+    padding: 5px;
+}
+
+.bolos {
+    border: 2px solid black;
+    position: relative;
+}
+
+.abas li {
+    display:inline-block;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 4px;
+    border-bottom: 0;
+    color: #FFF;
+    background-color: #5c5c5c;
+}
+
+.abas {
+    position: absolute;
+    top: -24px;
+    left: -2px;
+}
+
+.bolos-info img {
+    max-width: 80px;
+}
+
+.bolos a {
+    float: right;
+    margin: 0px 20px;
+}
+
+.bolos .bolos-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 80%;
+}
+
+.video {
+    height: 250px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.informacao {
+    height: 250px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.informacao ol li {
+    text-align: start;
+    padding: 10px;
+}
+
+.informacao-p {
+    height: 50px;
+    background-color: #5c5c5c;
+    color: #FFF;
+    padding: 20px 0px 0px 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+footer ol {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+  
+footer ol li{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.rede-social{
+    width: 20px;
+}
